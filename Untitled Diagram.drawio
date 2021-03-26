@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T07:38:51.339Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.1" etag="jvKvHNLE6ZnEo4kC8ivM" type="github"><diagram id="QGZZVZUHsN2f2BYzd_Qm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-26T10:07:54.038Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="yzQE5HVnjondEenFE0bB" version="14.5.1" type="github">
+  <diagram id="QGZZVZUHsN2f2BYzd_Qm" name="Page-1">
+    <mxGraphModel dx="944" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-1" value="redis数据类型和底层数据结构对应关系" style="text;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="140" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-2" value="string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-7">
+          <mxGeometry width="79.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-3" value="list" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-7">
+          <mxGeometry x="125.00000000000001" width="79.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-4" value="hash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-7">
+          <mxGeometry x="250.00000000000003" width="79.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-5" value="set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-7">
+          <mxGeometry x="375" width="79.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-6" value="sorted set" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-7">
+          <mxGeometry x="500.00000000000006" width="79.99999999999999" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="210" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-15">
+          <mxGeometry x="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-10" value="简单字符串" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-15">
+          <mxGeometry x="-20" width="79.67" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-15">
+          <mxGeometry x="200" width="84.67" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-15">
+          <mxGeometry x="304" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-15">
+          <mxGeometry x="400" width="78" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CA6PZa6cUGdluA9qh_aD-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="CA6PZa6cUGdluA9qh_aD-15">
+          <mxGeometry x="520" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
